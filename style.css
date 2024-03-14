@@ -1,0 +1,182 @@
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header */
+  header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .menu-btn {
+    background-color: #1E90FF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-btn:hover {
+    background-color: #0066FF;
+  }
+  
+  /* Main content */
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .student {
+    text-align: center;
+  }
+  
+  .student img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .student img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Student information */
+  #studentInfo, #timetableInfo {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 75%;
+    margin: 20px auto;
+  }
+  
+  #studentInfo h2, #timetableInfo h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #studentInfo p, #timetableInfo p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .timetable {
+    /* display: none; */
+    margin-top: 20px;
+    text-align: center;
+}
+
+.show-timetable {
+    display: block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #666;
+    color: #fff;
+}
+
+td {
+    background-color: #f2f2f2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.student-info-container {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.student-info-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.student-info-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.student-info-container th,
+.student-info-container td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.student-info-container th {
+  background-color: #666;
+  font-weight: bold;
+}
+
+.student-info-container tr:last-child td {
+  border-bottom: none;
+}
+
+.student-info-container td {
+  vertical-align: top;
+}
+
+.student-info-container strong {
+  font-weight: bold;
+  color: #333;
+}
+
+.student-info-container h2 {
+  margin-left: 28vw;
+}
+
+header h2 {
+  color: black;
+  font-weight: 400;
+  font-size: 26px;
+  font-family: 'Times New Roman', Times, serif;
+}

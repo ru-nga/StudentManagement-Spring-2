@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spring Flowers School</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="school-logo.jpg" alt="Spring Flowers School Logo">
+    </div>
+    <h2>Click on the profile to display student's info</h2>
+    <button class="menu-btn" aria-label="Menu" onclick="toggleMenu()">Display Time Table</button>
+  </header>
+  
+  <main>
+    <section class="student" id="student1">
+      <img src="student-images/student-1.jpg" alt="Riya" data-name="Riya" data-roll="101" data-gender="Female" data-grade="9th">
+    </section>
+    <section class="student" id="student2">
+      <img src="student-images/student-2.jpg" alt="Omkar" data-name="Omkar" data-roll="102" data-gender="Male" data-grade="10th">
+    </section>
+    <section class="student" id="student3">
+      <img src="student-images/student-3.jpg" alt="Sayali" data-name="Sayali" data-roll="103" data-gender="Female" data-grade="8th">
+    </section>
+  </main>
+  
+  <section id="studentInfo">
+    <!-- Student information will be displayed here -->
+  </section>
+
+  <section id="timetableInfo">
+    <!-- Timetable information will be displayed here -->
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
